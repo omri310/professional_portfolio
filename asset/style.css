@@ -1,0 +1,251 @@
+/* Universal Selector */
+* {
+    margin:0;
+    padding:0;  
+  }
+  
+  /* Element Selectors */
+  a { transition: all 0.3s ease;}
+button:focus{ outline:none; }
+
+a:hoover,
+a:focus {
+  color: blue;
+  text-decoration: none;
+  outline: none;
+}
+
+ul,  h1{
+  padding: 0;
+  margin: 0; 
+}
+html { front-size: 18px; }
+
+  .body {
+    position: relative;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 24px;
+    padding-left: 60px;
+    padding-right: 60px;
+    background-color: white;
+    color: blue;
+  }
+  
+    .solid-line {
+      border-left: 2px solid green;
+    }
+
+.about-me-section {
+  display: flex;
+}
+
+.about-header {
+    margin: 3px;
+    padding: 3px;
+}
+
+.images {
+display: flex;
+border: 1px solid #ddd;
+border: 1px solid wh;
+border-radius: 66px;
+padding: 16px;
+width: 483px;
+}
+
+.main-picture{
+  max-width: 887px;
+  border: 1px solid #ddd;
+  border-radius: 100px;
+  width: 971px;
+}
+<img class="main-picture" src="sunset.jpeg" alt="sunsetpic">
+
+.section { 
+  width: 100vw; 
+  height: 40vh; 
+  background-color: #EF5354; 
+  font-size: 50px; 
+  color: white; 
+  text-align: center; 
+  margin: 10px 5px; 
+} 
+
+.one, 
+        .three { 
+            background-color: #E03B8B; 
+        } 
+          
+        .nav { 
+            width: 100vw; 
+            height: 30px; 
+            font-size: large; 
+            color: white; 
+            text-align: center; 
+            margin: 10px 5px; 
+            display: flex; 
+            flex-direction: row; 
+            justify-content: space-around; 
+            place-items: center; 
+        } 
+
+        .btn { 
+          color: white; 
+          background-color: #38CC77; 
+          height: 40px; 
+          width: 90px; 
+          padding: 2px; 
+          border: 2px solid black; 
+          text-decoration: none; 
+      } 
+
+.contact {
+  display: flex;
+}
+
+  .p {line-height: 2; }
+
+  p:last-child { margin-bottom: 0;}
+ 
+  .tm-img {padding:15px; }
+
+  .tm-footer-text {
+    font-size: 0.9em;
+    margin-bottom: 0;
+    padding: 30px 15px;
+  }
+
+  .tm-footer a {
+    color: white;
+  }
+
+  .tm-container {
+    background-color: white;
+    padding: 30px 45px;
+    max-width: 1600px;
+  }
+
+  .navbar-row { position: relative;}
+  .navbar-container {
+    background-color: yellow;
+    font-size: 1em;
+    position: absolute;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+-webkit-justify-content: space between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+-webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 40px;
+    z-index: index 1000;
+
+  }
+
+  .navbar {
+    color: white;
+    font-size: 1em;
+    padding: 0;
+  }
+
+  .navbar-container.sticky {
+    background-color: yellow;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    z-index: 1000;
+    font-size: 0.6em;
+    padding: 1em 2em;
+  }
+
+  .navbar-container.sticky .navbar-brand {
+    padding: 0.285em 1em;
+  }
+
+  .navbar-brand{
+    color: white;
+    font-size: 3em;
+    margin: 0;
+    text-transform: uppercase;
+    padding: 0.56em 1.3em;
+    border: 1px solid white;
+  }
+
+  .navbar-brand:hoover,
+  .navbar-brand:focus {
+    color:white
+  }
+  .nav-item {
+    float: left;
+    list-style: none;
+    font-size: 1.8em;
+  }
+
+  .navbar-nav .nav-link,
+  .navbar-nav .nav-link:focus {
+    color: white;
+    display: block;
+    font-weight: 300;
+    padding: 0.625em 1.43em;
+    transition: all 0.3s ease;
+  }
+  h1, h2 {
+    margin: 20px;
+  }
+  
+  main {
+    padding: 60px 0;
+  }
+  
+  li {
+    display: inline;
+    padding: 0px 20px;
+    text-decoration: none;
+  }
+  
+  a {
+    text-decoration: none;
+    color: white;
+  }
+
+  .publications {
+    position: center;
+    height: 10px;
+    width: 100%;
+    line-height: 30px;
+    margin-top: 0;
+    border-bottom: 10px solid green 
+    display: flex;  
+    
+  }
+  
+
+  
+  section {
+    margin-bottom: 0;
+    padding: 20px 10px 40px 10px;
+    border-top: 3px solid #DDAF94;
+    background-color:  #E8CEBF;
+  }
+  
+  label {
+    display: inline-block;
+    width: 100px;
+  }
+    
+ 
+  
+   
+  /* Class Selectors */
+  .text-center {
+    text-align: center;
+  }
+  
+  .text-right {
+    text-align: right;
+  }
+  
